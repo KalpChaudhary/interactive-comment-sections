@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+@import 'abstracts/variables';
+
+@import 'layout/commentSection';
+@import 'layout/replySection';
+
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $Light-gray;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Rubik';
+}

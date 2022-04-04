@@ -1,0 +1,30 @@
+{
+  "name": "interactive-comments-section-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive comments section coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "watchreload": {
+      "files": [
+        "**/*.html",
+        "**/*.scss",
+        "**/*.js"
+      ]
+    }
+  },
+  "author": "Kalp Chaudhary",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.4.0",
+    "parcel-plugin-watch-reload": "^1.0.3"
+  },
+  "dependencies": {
+    "ima": "^0.16.11",
+    "images": "^3.2.4",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
