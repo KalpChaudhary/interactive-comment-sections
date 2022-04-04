@@ -1,5 +1,5 @@
 "use strict";
-import regeneratorRuntime from "regenerator-runtime";
+// import regeneratorRuntime from "regenerator-runtime";
 import dataList from "../data.json";
 import images from "./images/avatars/*.png";
 import icons from "./images/*.svg";
